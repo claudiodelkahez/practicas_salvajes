@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(160, 160, 160);
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+.botones {
+    background: cadetblue;
+    padding: 10px;
+    width: 960px;
+}
+
+/* <-- LINKS COMO BOTONES--> */
+
+a:link,
+a:visited {
+    background-color: #dadada;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(155, 155, 155);
+}
+
+div.botones {
+    border-radius: 5px;
+    margin: 5px 10px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.botones a {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: rgb(194, 194, 194);
+}
+
+/* <-- LINKS COMO BOTONES--> */
